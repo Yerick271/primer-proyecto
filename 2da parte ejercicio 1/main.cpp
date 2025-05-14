@@ -2,7 +2,16 @@
 #include "student.h"
 using namespace std;
 
-
+struct student {
+    string name;
+    int code;
+    int age;
+    student() {
+        name ="";
+        code=0;
+        age=0;
+    }
+};
 
 int main()
 {
